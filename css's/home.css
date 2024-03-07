@@ -1,0 +1,70 @@
+/* N A V B A R! */
+
+body {
+    font-family: 'Italiana', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    background-color: #000000;
+    overflow: hidden;
+    text-align: center; /* Om de tekst in het midden uit te lijnen */
+}
+
+nav a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 35px; /* Voeg deze regel toe voor een groter lettertype */
+}
+
+nav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+/* Stijl voor het rechts uitlijnen van het login-item */
+nav a.login {
+    float: right;
+}
+
+/* Stijl voor het midden uitlijnen van de tekst */
+.brand-text {
+    display: inline-block;
+    color: white;
+    padding: 14px 16px;
+}
+
+/* Stijl voor de onderste tekst */
+.tagline {
+    color: rgb(0, 0, 0);
+    text-align: center;
+    margin-top: 4px; /* Ruimte tussen de merknaam en de tagline */
+}
+/* E I N D E   N A V B A R!---------------------------------------------------------------------------------------------------------------- */
+
+.container{
+    width: 100vw;
+    height: 400px;
+
+}
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color:white;
+
+  }
+
+img{
+    width: 100vw;
+    height: 600px;
+    filter: brightness(50%);
+}
+
