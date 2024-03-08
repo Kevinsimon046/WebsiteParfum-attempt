@@ -2,16 +2,13 @@ body {
     font-family: 'Italiana', sans-serif;
     margin: 0;
     padding: 0;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 /* N A V B A R! */
 
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
-*{
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: 'Poppins', sans-serif;
-}
+
 nav{
   position: fixed;
   z-index: 99;
@@ -281,6 +278,8 @@ nav input{
 /* E I N D E   N A V B A R!---------------------------------------------------------------------------------------------------------------- */
 
 .container{
+    position: absolute;
+    margin-top: 70px;
     width: 100vw;
     height: 400px;
 
@@ -299,5 +298,6 @@ img{
     width: 100vw;
     height: 600px;
     filter: brightness(50%);
+    
 }
 
